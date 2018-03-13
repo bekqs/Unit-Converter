@@ -1,0 +1,22 @@
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+readers do not read off random characters that represent icons */
+
+.#{$fa-css-prefix}-times:before { content: fa-content($fa-var-times); }
+.#{$fa-css-prefix}-clock:before { content: fa-content($fa-var-clock); }
+.#{$fa-css-prefix}-tint:before { content: fa-content($fa-var-tint); }
+.#{$fa-css-prefix}-expand:before { content: fa-content($fa-var-expand); }
+.#{$fa-css-prefix}-plus:before { content: fa-content($fa-var-plus); }
+.#{$fa-css-prefix}-minus:before { content: fa-content($fa-var-minus); }
+.#{$fa-css-prefix}-bars:before { content: fa-content($fa-var-bars); }
+.#{$fa-css-prefix}-caret-down:before { content: fa-content($fa-var-caret-down); }
+.#{$fa-css-prefix}-caret-up:before { content: fa-content($fa-var-caret-up); }
+.#{$fa-css-prefix}-angle-left:before { content: fa-content($fa-var-angle-left); }
+.#{$fa-css-prefix}-angle-right:before { content: fa-content($fa-var-angle-right); }
+.#{$fa-css-prefix}-angle-down:before { content: fa-content($fa-var-angle-down); }
+.#{$fa-css-prefix}-angle-up:before { content: fa-content($fa-var-angle-up); }
+.#{$fa-css-prefix}-keyboard:before { content: fa-content($fa-var-keyboard); }
+.#{$fa-css-prefix}-genderless:before { content: fa-content($fa-var-genderless); }
+.#{$fa-css-prefix}-balance-scale:before { content: fa-content($fa-var-balance-scale); }
+.#{$fa-css-prefix}-arrows-alt-h:before { content: fa-content($fa-var-arrows-alt-h); }
+.#{$fa-css-prefix}-exchange-alt:before { content: fa-content($fa-var-exchange-alt); }
+.#{$fa-css-prefix}-thermometer:before { content: fa-content($fa-var-thermometer); }

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Volume - Unit Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome/fontawesome.css">
+</head>
+<body>
+    <section id="sidebar">
+        <nav>
+            <ul>
+                <li id="area">
+                    <a href="/"><i class="fas fa-expand"></i>Area</a>
+                </li>
+                <li id="length">
+                    <a href="/length.html"><i class="fas fa-arrows-alt-h"></i>Length</a>
+                </li>
+                <li id="mass">
+                    <a href="/mass.html"><i class="fas fa-balance-scale"></i>Mass</a>
+                </li>
+                <li id="temperature">
+                    <a href="/temperature.html"><i class="fas fa-thermometer"></i>Temperature</a>
+                </li>
+                <li id="time">
+                    <a href="/time.html"><i class="fas fa-clock"></i>Time</a>
+                </li>
+                <li id="volume">
+                    <a href="/volume.html" class="active"><i class="fas fa-tint"></i>Volume</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <section id="converter">
+        <form>
+            <fieldset>
+                <div class="units input">
+                    <input type="number" name="input" id="input" value="" placeholder="From">
+                    <div id="convert-from" class="selected">
+                        <p>
+                            <span id="from">Choose a unit</span>
+                            <i id="caret-from" class="fas fa-caret-down"></i>
+                        </p>
+                    </div>
+
+                    <div class="list">
+                        <ul id="dropdown-from" class="dropdown">
+                            <li class="unit">US liquid gallon</li>
+                            <li class="unit">US liquid quart</li>
+                            <li class="unit">US liquid pint</li>
+                            <li class="unit">US legal cup</li>
+                            <li class="unit">US fluid ounce</li>
+                            <li class="unit">US tablespoon</li>
+                            <li class="unit">US teaspoon</li>
+                            <li class="unit">Cubic metre</li>
+                            <li class="unit">Litre</li>
+                            <li class="unit">Millilitre</li>
+                            <li class="unit">Imperial gallon</li>
+                            <li class="unit">Imperial quart</li>
+                            <li class="unit">Imperial pint</li>
+                            <li class="unit">Imperial cup</li>
+                            <li class="unit">Imperial fluid ounce</li>
+                            <li class="unit">Imperial tablespoon</li>
+                            <li class="unit">Imperial teaspoon</li>
+                            <li class="unit">Cubic foot</li>
+                            <li class="unit">Cubic inch</li>
+                        </ul>
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <div class="units output">
+                    <input type="number" name="output" id="output" value="" placeholder="To">
+                    <div id="convert-to" class="selected">
+                        <p>
+                            <span id="to">Choose a unit</span>
+                            <i id="caret-to" class="fas fa-caret-down"></i>
+                        </p>
+                    </div>
+
+                    <div class="list">
+                        <ul id="dropdown-to" class="dropdown">
+                            <li class="unit">US liquid gallon</li>
+                            <li class="unit">US liquid quart</li>
+                            <li class="unit">US liquid pint</li>
+                            <li class="unit">US legal cup</li>
+                            <li class="unit">US fluid ounce</li>
+                            <li class="unit">US tablespoon</li>
+                            <li class="unit">US teaspoon</li>
+                            <li class="unit">Cubic metre</li>
+                            <li class="unit">Litre</li>
+                            <li class="unit">Millilitre</li>
+                            <li class="unit">Imperial gallon</li>
+                            <li class="unit">Imperial quart</li>
+                            <li class="unit">Imperial pint</li>
+                            <li class="unit">Imperial cup</li>
+                            <li class="unit">Imperial fluid ounce</li>
+                            <li class="unit">Imperial tablespoon</li>
+                            <li class="unit">Imperial teaspoon</li>
+                            <li class="unit">Cubic foot</li>
+                            <li class="unit">Cubic inch</li>
+                        </ul>
+                    </div>
+                </div>
+            </fieldset>
+        </form>
+    </section>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>

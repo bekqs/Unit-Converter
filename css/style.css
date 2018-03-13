@@ -1,0 +1,262 @@
+/*!
+ * Font Awesome Free 5.0.8 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+readers do not read off random characters that represent icons */
+.fa-times:before {
+  content: "\f00d"; }
+
+.fa-clock:before {
+  content: "\f017"; }
+
+.fa-tint:before {
+  content: "\f043"; }
+
+.fa-expand:before {
+  content: "\f065"; }
+
+.fa-plus:before {
+  content: "\f067"; }
+
+.fa-minus:before {
+  content: "\f068"; }
+
+.fa-bars:before {
+  content: "\f0c9"; }
+
+.fa-caret-down:before {
+  content: "\f0d7"; }
+
+.fa-caret-up:before {
+  content: "\f0d8"; }
+
+.fa-angle-left:before {
+  content: "\f104"; }
+
+.fa-angle-right:before {
+  content: "\f105"; }
+
+.fa-angle-down:before {
+  content: "\f107"; }
+
+.fa-angle-up:before {
+  content: "\f106"; }
+
+.fa-keyboard:before {
+  content: "\f11c"; }
+
+.fa-genderless:before {
+  content: "\f22d"; }
+
+.fa-balance-scale:before {
+  content: "\f24e"; }
+
+.fa-arrows-alt-h:before {
+  content: "\f337"; }
+
+.fa-exchange-alt:before {
+  content: "\f362"; }
+
+.fa-thermometer:before {
+  content: "\f491"; }
+
+/*!
+ * Font Awesome Free 5.0.8 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
+ */
+@font-face {
+  font-family: 'Font Awesome 5 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url("fontawesome/webfonts/fa-solid-900.woff") format("woff"); }
+
+.fa,
+.fas {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900; }
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  letter-spacing: .05em; }
+
+body {
+  background: #232429;
+  font-size: 14px;
+  overflow: hidden; }
+
+a {
+  text-decoration: none;
+  color: #606064;
+  -webkit-transition: all ease-out 0.2s;
+  -o-transition: all ease-out 0.2s;
+  transition: all ease-out 0.2s; }
+
+ul {
+  list-style: none; }
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+input[type="number"] {
+  -moz-appearance: textfield; }
+
+section {
+  display: inline-block;
+  height: 100%; }
+
+#sidebar {
+  min-width: 20%;
+  background: #232429;
+  -webkit-box-shadow: 1px 0 0 rgba(0, 0, 0, 0.05);
+  box-shadow: 1px 0 0 rgba(0, 0, 0, 0.05);
+  border-right: 1px solid rgba(255, 255, 255, 0.02); }
+  #sidebar nav {
+    display: table;
+    height: 100vh; }
+    #sidebar nav ul {
+      display: table-cell;
+      vertical-align: middle; }
+      #sidebar nav ul li {
+        display: block;
+        width: 100%; }
+        #sidebar nav ul li a {
+          display: block;
+          width: inherit;
+          padding: 1.2em 2.4em;
+          color: #606064;
+          border-left: 5px solid transparent;
+          -webkit-transition: all ease-out 0.2s;
+          -o-transition: all ease-out 0.2s;
+          transition: all ease-out 0.2s; }
+          #sidebar nav ul li a.active {
+            border-left: 5px solid #e9d45b;
+            color: #e9d45b; }
+          #sidebar nav ul li a:hover:not(.active) {
+            color: #888897;
+            border-color: #888897; }
+          #sidebar nav ul li a i {
+            width: 2.4em; }
+
+#converter {
+  width: 80%;
+  position: absolute;
+  top: 0;
+  right: 0; }
+  #converter form {
+    display: block;
+    margin: auto; }
+    #converter form fieldset {
+      border: none;
+      width: 50%;
+      margin-top: 25%;
+      float: left; }
+      #converter form fieldset input[type="number"] {
+        outline: none;
+        border: none;
+        background: rgba(0, 0, 0, 0.1);
+        border-bottom: 3px solid transparent;
+        border-radius: 1px;
+        display: inline-block;
+        width: 250px;
+        height: 100%;
+        padding: 0 .6em;
+        margin: .6em;
+        font-size: 2em;
+        font-weight: 300;
+        color: #e9d45b;
+        -webkit-transition: all ease-out 0.2s;
+        -o-transition: all ease-out 0.2s;
+        transition: all ease-out 0.2s; }
+        #converter form fieldset input[type="number"]::-webkit-input-placeholder {
+          font-size: .5em;
+          font-weight: 400; }
+        #converter form fieldset input[type="number"]:-ms-input-placeholder {
+          font-size: .5em;
+          font-weight: 400; }
+        #converter form fieldset input[type="number"]::-ms-input-placeholder {
+          font-size: .5em;
+          font-weight: 400; }
+        #converter form fieldset input[type="number"]::placeholder {
+          font-size: .5em;
+          font-weight: 400; }
+        #converter form fieldset input[type="number"]:focus {
+          border-color: #e9d45b; }
+    #converter form .units {
+      width: 100%;
+      height: 4.8em; }
+      #converter form .units.input {
+        text-align: right; }
+      #converter form .units.output {
+        text-align: left; }
+      #converter form .units div {
+        display: inline-table;
+        width: 250px;
+        height: 0;
+        padding: 0 1.2em;
+        margin: 1.2em;
+        border-radius: 1px;
+        cursor: pointer;
+        background: rgba(0, 0, 0, 0.1); }
+        #converter form .units div.selected {
+          height: 100%; }
+        #converter form .units div p, #converter form .units div li {
+          display: table-cell;
+          vertical-align: middle;
+          text-align: left;
+          position: relative;
+          color: #606064;
+          -webkit-transition: all ease-out 0.2s;
+          -o-transition: all ease-out 0.2s;
+          transition: all ease-out 0.2s; }
+          #converter form .units div p i, #converter form .units div li i {
+            position: absolute;
+            right: .6em;
+            -webkit-transition: all ease-out 0.2s;
+            -o-transition: all ease-out 0.2s;
+            transition: all ease-out 0.2s; }
+            #converter form .units div p i.rotate, #converter form .units div li i.rotate {
+              -webkit-transform: rotate(180deg);
+              -ms-transform: rotate(180deg);
+              transform: rotate(180deg); }
+          #converter form .units div p:hover, #converter form .units div li:hover {
+            color: #888897; }
+      #converter form .units .list {
+        display: inline-block;
+        position: relative;
+        margin-top: 0; }
+        #converter form .units .list ul {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          height: 0;
+          width: inherit;
+          padding: 0 1.2em;
+          background: inherit;
+          overflow: auto;
+          -webkit-transition: all ease-out 0.2s;
+          -o-transition: all ease-out 0.2s;
+          transition: all ease-out 0.2s; }
+          #converter form .units .list ul.open {
+            height: 255px; }
+            #converter form .units .list ul.open.temp {
+              height: 160px; }
+          #converter form .units .list ul li {
+            display: block;
+            padding: 1.2em 0; }
+            #converter form .units .list ul li:not(:last-child) {
+              border-bottom: 1px solid rgba(255, 255, 255, 0.02);
+              -webkit-box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05);
+              box-shadow: 0 1px 0 rgba(0, 0, 0, 0.05); }
+          #converter form .units .list ul::-webkit-scrollbar {
+            width: .2em; }
+          #converter form .units .list ul::-webkit-scrollbar-track {
+            -webkit-box-shadow: inset 0 0 10px #e9d45b;
+            box-shadow: inset 0 0 10px #e9d45b; }
+          #converter form .units .list ul::-webkit-scrollbar-thumb {
+            background-color: #232429; }

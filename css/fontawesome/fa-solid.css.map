@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA;;;GAGG;AAGH,UAKC;EAJC,WAAW,EAAE,qBAAqB;EAClC,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,gDAAwD;AAG/D;IACK;EACH,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,GAAG",
+"sources": ["../../scss/fontawesome/fa-solid.scss"],
+"names": [],
+"file": "fa-solid.css"
+}
